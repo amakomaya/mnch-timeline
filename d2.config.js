@@ -1,7 +1,6 @@
 const config = {
     type: 'app',
-    name: 'capture-growth-chart',
-
+    name: 'immunization-plugin',
     entryPoints: { plugin: './src/Plugin.tsx' },
 };
 

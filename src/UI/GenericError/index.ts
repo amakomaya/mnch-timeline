@@ -1,1 +1,0 @@
-export { GenericError } from './GenericError';

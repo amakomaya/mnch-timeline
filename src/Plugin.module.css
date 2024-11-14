@@ -9,3 +9,72 @@ pre {
 p {
     font-size: 14px;
 }
+.pluginContainer {
+    width: 100%;
+    border: 1px solid #d3d3d3; 
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #ffffff; 
+    height: 450px;
+
+}
+
+.scheduleContainer {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: auto; 
+
+}
+
+.scheduleTable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+.scheduleTable th,
+.scheduleTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    font-size:14px;
+}
+
+.scheduleTable th {
+    background-color: #f2f2f2;
+    font-size: 14px;
+}
+
+.vaccineName {
+    font-weight: bold;
+}
+.disabledCell {
+    opacity: 0.5;
+    pointer-events: none;
+    background-color: #888;
+}
+
+
+/* Responsive font adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .scheduleTable th,
+    .scheduleTable td {
+        padding: 6px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .scheduleTable th,
+    .scheduleTable td {
+        padding: 4px;
+        font-size: 14px;
+    }
+}
+
