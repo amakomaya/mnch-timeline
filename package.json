@@ -1,5 +1,5 @@
 {
-  "name": "immunization-plugin-test",
+  "name": "mnch-timeline",
   "version": "1.0.0",
   "description": "",
   "license": "BSD-3-Clause",
@@ -38,6 +38,7 @@
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tanstack/react-query": "^4",
     "@types/chart.js": "^2.9.41",
+    "anychart": "^8.13.0",
     "axios": "^1.7.7",
     "chart.js": "^4.4.2",
     "chartjs-plugin-annotation": "^3.0.1",

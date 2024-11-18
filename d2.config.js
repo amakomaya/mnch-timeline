@@ -1,6 +1,6 @@
 const config = {
     type: 'app',
-    name: 'immunization-plugin',
+    name: 'mnch-timeline',
     entryPoints: { plugin: './src/Plugin.tsx' },
 };
 

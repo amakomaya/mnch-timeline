@@ -3809,6 +3809,11 @@ any-promise@^1.0.0:
   resolved "https://registry.yarnpkg.com/any-promise/-/any-promise-1.3.0.tgz#abc6afeedcea52e809cdc0376aed3ce39635d17f"
   integrity sha512-7UvmKalWRt1wgjL1RrGxoSJW/0QZFIegpeGvZG9kjp8vrRu55XTHbwnqq2GpXm9uLbcuhxm3IqX9OB4MZR1b2A==
 
+anychart@^8.13.0:
+  version "8.13.0"
+  resolved "https://registry.yarnpkg.com/anychart/-/anychart-8.13.0.tgz#779d4d797f42f4c1905c8090f1b1a6ee5f7e823e"
+  integrity sha512-tl/VrD5NiW04uZEH1bY5AVR+G39REAlf5O8FBWRmPv3rU0rytwhOY42kaJWvrXi+TTK5MatxIGDyheBw66wXZg==
+
 anymatch@^3.0.3, anymatch@~3.1.2:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-3.1.3.tgz#790c58b19ba1720a84205b57c618d5ad8524973e"
